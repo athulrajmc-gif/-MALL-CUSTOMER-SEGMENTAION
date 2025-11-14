@@ -1,0 +1,31 @@
+1. Loaded the Dataset
+
+Imported the Mall Customers dataset and checked the first few rows.
+
+Reviewed data types, shape, missing values, and duplicates.
+
+2. Cleaned Column Names
+
+Converted all column names to lowercase.
+
+Replaced spaces with underscores for consistency.
+
+3. Checked Missing Values & Duplicates
+
+No missing values found.
+
+No duplicate rows found.
+
+4. Cleaned the Gender Column
+
+Standardized text (male/female → lowercase).
+
+Converted gender into boolean (male=True, female=False).
+
+5. Fixed Data Types
+
+Converted all numeric columns (age, customerid, income, score) to integer types.
+
+6. Saved Final Clean Dataset
+
+Exported cleaned file as Mall_Customers_Cleaned.csv.
